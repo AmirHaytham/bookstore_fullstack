@@ -112,4 +112,4 @@ npm run build          # build the frontend for production
 
 ---
 
-— Built for CSEN 406 at the German International University.
+— Built for CSEN 406 at the German International University <3
