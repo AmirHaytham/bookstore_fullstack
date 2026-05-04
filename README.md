@@ -110,6 +110,40 @@ npm run seed           # wipe + reload demo data
 npm run build          # build the frontend for production
 ```
 
+## Screenshots
+
+The public book list — what an unauthenticated visitor sees:
+
+![Public book list](screenshots/01-list-public.png)
+
+The register page (customer accounts only):
+
+![Register page](screenshots/02-register.png)
+
+The login page:
+
+![Login page](screenshots/03-login.png)
+
+Logged in as **admin** — the `+ Add Book` link is now in the navbar:
+
+![Admin book list](screenshots/04-list-admin.png)
+
+A book detail page from the admin's perspective (edit / delete unlocked):
+
+![Admin book detail](screenshots/05-book-detail-admin.png)
+
+The protected Add Book form, only reachable when authenticated as admin:
+
+![Add Book form](screenshots/06-add-book.png)
+
+The same list signed in as **customer** Sara — no admin actions, just browse:
+
+![Customer book list](screenshots/07-list-customer.png)
+
+A book detail page on the customer side, with the review form enabled:
+
+![Customer book detail](screenshots/08-book-detail-customer.png)
+
 ---
 
 — Built for CSEN 406 at the German International University <3
